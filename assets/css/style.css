@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 50px 10% 0px 10%;
+  background-image: url(../img/bg-pattern-intro-desktop.svg), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 0px 100px;
+  background-size: 140%;
+  width: 100%;
+  height: 480px;
+
+}
+
+header,
+#navHeader,
+#headerButtons button,
+#navLogin,
+#singUpButton {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 800;
+}
+
+header #navHeader,#navProducts, #navLogin{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+header #navHeader {
+  justify-content: space-between;
+}
+
+#navProducts {
+  gap: 45px;
+}
+
+#navProducts li img {
+  margin-left: 5px;
+}
+
+#navLogin {
+  gap: 25px;
+}
+
+#navLogin #singUpButton {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: hsl(353, 100%, 62%);
+}
+
+#header2 {
+  color: white;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#header2 h1 {
+  font-weight: 400;
+}
+
+#header2 p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgba(236, 236, 236, 0.863);
+}
+
+#headerButtons button {
+  margin-top: 40px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+#startFree {
+  border: none;
+  color: hsl(353, 100%, 62%);
+}
+
+#learnMore {
+  color: white;
+  background: none;
+  border: 1px solid white;
+}
+
+#headerButtons {
+  display: flex;
+  gap: 10px;
+}
+
+#header2 h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#DesingnedAREA {
+  padding-top: 140px;
+  padding-left: 10%;
+  background-image: url(/pagina/assets/img/illustration-editor-desktop.svg);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: 825px 60px;
+  height: 840px;
+}
+
+#DesingnedAREA h2 {
+  font-size: 34px;
+  margin-left: 31%;
+  margin-bottom: 85px;
+}
+
+#editorInfo {
+  width: 540px;
+  height: 400px;
+}
+
+#editorInfo h3 {
+  font-size: 25px;
+}
+
+main {
+  font-family: 'Overpass', sans-serif;
+}
+
+#DesingnedAREA,
+editorInfo h3 {
+  color: hsl(208, 49%, 24%);
+}
+
+#editorInfo h3 {
+  margin: 20px 0px;
+}
+
+#editorInfo p {
+  margin-bottom: 50px;
+}
+
+#parteDocelular {
+  padding-left: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(237, 23%, 32%);
+  background-image: url(/pagina/assets/img/bg-pattern-circles.svg), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-repeat: no-repeat;
+  background-position: -150px;
+  height: 400px;
+  border-radius: 0px 0px 0px 100px;
+}
+
+#parteDoCelularTexto {
+  width: 550px;
+}
+
+#parteDoCelularTexto h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+#parteDoPc {
+  background-image: url(/pagina/assets/img/illustration-laptop-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: -258px;
+  width: 100%;
+  height: 700px;
+  padding-top: 180px;
+}
+
+#parteDoPcTexto {
+  color: hsl(208, 49%, 24%);
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50%;
+}
+
+#parteDoPcTexto h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#parteDoPcTexto p {
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+footer {
+  padding: 50px 0px 0px 150px;
+  width: 100%;
+  height: 350px;
+  border-radius: 0px 100px 0px 0px;
+  background-color: hsl(240, 10%, 16%);
+  color: white;
+  font-family: 'Overpass', sans-serif;
+}
+
+footer nav  {
+  gap: 200px;
+  display: flex;
+  align-items: flex-start;
+}
+
+footer nav ul{
+  list-style: none;
+}
+footer nav ul li:first-child {
+  color: white;
+  margin-bottom: 40px;
+}
+footer nav ul li + li{
+  
+  margin-top: 10px;
+}
+footer nav ul a{
+  text-decoration: none;
+  color: hsl(240, 2%, 79%);
+}
